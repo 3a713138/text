@@ -101,9 +101,9 @@ namespace WindowsFormsApp1
                         y = 0.5;
                     t = x+y ;
                     if(t>10.5)
-                    MessageBox.Show($"爆了", "Random Num", MessageBoxButtons.OK);
+                    MessageBox.Show($"爆了", "糟糕", MessageBoxButtons.OK);
                     else
-                    MessageBox.Show($"{t}", "Random Num", MessageBoxButtons.OK);
+                    MessageBox.Show($"{t}", "結果", MessageBoxButtons.OK);
                 }
         private void button4_Click(object sender, EventArgs e)
         {
@@ -136,18 +136,18 @@ namespace WindowsFormsApp1
                 a = 0.5;
             i = a + z;
             if (i > 10.5)
-                MessageBox.Show($"爆了", "Random Num", MessageBoxButtons.OK);
+                MessageBox.Show($"爆了", "糟糕", MessageBoxButtons.OK);
             else
-                MessageBox.Show($"{i}", "Random Num", MessageBoxButtons.OK);
+                MessageBox.Show($"{i}", "結果", MessageBoxButtons.OK);
         }
         private void button5_Click(object sender, EventArgs e)
         {
             if(i<t)
-                MessageBox.Show($"P1獲勝", "Random Num", MessageBoxButtons.OK);
+                MessageBox.Show($"P1獲勝", "勝負", MessageBoxButtons.OK);
             else if (i==t)
-                MessageBox.Show($"平手", "Random Num", MessageBoxButtons.OK);
+                MessageBox.Show($"平手", "勝負", MessageBoxButtons.OK);
             else
-                MessageBox.Show($"P2獲勝", "Random Num", MessageBoxButtons.OK);
+                MessageBox.Show($"P2獲勝", "勝負", MessageBoxButtons.OK);
         }
 
     }
