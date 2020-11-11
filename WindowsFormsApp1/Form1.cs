@@ -75,8 +75,8 @@ namespace WindowsFormsApp1
             list.Add(Resources._52);
             list.Add(Resources._53);
         }
-       
 
+        
         private void bnt0_Click(object sender, EventArgs e)
         {
           
@@ -86,9 +86,11 @@ namespace WindowsFormsApp1
             pictureBox1.Image = list[index];
             x = index;
             x = (index % 13) + 1;
-            if (x >= 10)
+            if (x > 10)
                 x = 0.5;
+            t = 0 + x;
         }
+        
         private void button1_Click(object sender, EventArgs e)
                 {
                     int index = new Random().Next(51) ;
@@ -97,7 +99,7 @@ namespace WindowsFormsApp1
                     y = (index%13)+1;
                     if (y > 10)
                         y = 0.5;
-                    t = y + x;
+                    t = x+y ;
                     if(t>10.5)
                     MessageBox.Show($"爆了", "Random Num", MessageBoxButtons.OK);
                     else
@@ -121,6 +123,7 @@ namespace WindowsFormsApp1
             z = (index % 13) + 1;
             if (z >= 10)
                 z = 0.5;
+            i = 0 + z;       
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -136,6 +139,15 @@ namespace WindowsFormsApp1
                 MessageBox.Show($"爆了", "Random Num", MessageBoxButtons.OK);
             else
                 MessageBox.Show($"{i}", "Random Num", MessageBoxButtons.OK);
+        }
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if(i<t)
+                MessageBox.Show($"P1獲勝", "Random Num", MessageBoxButtons.OK);
+            else if (i==t)
+                MessageBox.Show($"平手", "Random Num", MessageBoxButtons.OK);
+            else
+                MessageBox.Show($"P2獲勝", "Random Num", MessageBoxButtons.OK);
         }
 
     }

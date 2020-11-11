@@ -38,6 +38,7 @@ namespace WindowsFormsApp1
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -47,9 +48,10 @@ namespace WindowsFormsApp1
             // bnt0
             // 
             this.bnt0.Font = new System.Drawing.Font("新細明體", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.bnt0.Location = new System.Drawing.Point(555, 32);
+            this.bnt0.Location = new System.Drawing.Point(740, 40);
+            this.bnt0.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bnt0.Name = "bnt0";
-            this.bnt0.Size = new System.Drawing.Size(171, 102);
+            this.bnt0.Size = new System.Drawing.Size(228, 128);
             this.bnt0.TabIndex = 0;
             this.bnt0.Text = "P1按我 第一張牌";
             this.bnt0.UseVisualStyleBackColor = true;
@@ -58,9 +60,10 @@ namespace WindowsFormsApp1
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("新細明體", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button1.Location = new System.Drawing.Point(802, 32);
+            this.button1.Location = new System.Drawing.Point(1069, 40);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(171, 102);
+            this.button1.Size = new System.Drawing.Size(228, 128);
             this.button1.TabIndex = 1;
             this.button1.Text = "P1補牌";
             this.button1.UseVisualStyleBackColor = true;
@@ -69,9 +72,10 @@ namespace WindowsFormsApp1
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("新細明體", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button2.Location = new System.Drawing.Point(555, 335);
+            this.button2.Location = new System.Drawing.Point(740, 419);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(171, 102);
+            this.button2.Size = new System.Drawing.Size(228, 128);
             this.button2.TabIndex = 6;
             this.button2.Text = "P2按我 第一張牌";
             this.button2.UseVisualStyleBackColor = true;
@@ -80,9 +84,10 @@ namespace WindowsFormsApp1
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("新細明體", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button3.Location = new System.Drawing.Point(802, 335);
+            this.button3.Location = new System.Drawing.Point(1069, 419);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(171, 102);
+            this.button3.Size = new System.Drawing.Size(228, 128);
             this.button3.TabIndex = 7;
             this.button3.Text = "P2補牌";
             this.button3.UseVisualStyleBackColor = true;
@@ -91,9 +96,10 @@ namespace WindowsFormsApp1
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("新細明體", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button4.Location = new System.Drawing.Point(669, 203);
+            this.button4.Location = new System.Drawing.Point(1069, 245);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(188, 75);
+            this.button4.Size = new System.Drawing.Size(228, 94);
             this.button4.TabIndex = 8;
             this.button4.Text = "重置";
             this.button4.UseVisualStyleBackColor = true;
@@ -102,9 +108,10 @@ namespace WindowsFormsApp1
             // pictureBox3
             // 
             this.pictureBox3.Image = global::WindowsFormsApp1.Properties.Resources._53;
-            this.pictureBox3.Location = new System.Drawing.Point(232, 299);
+            this.pictureBox3.Location = new System.Drawing.Point(309, 374);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(156, 204);
+            this.pictureBox3.Size = new System.Drawing.Size(208, 255);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 5;
             this.pictureBox3.TabStop = false;
@@ -112,9 +119,10 @@ namespace WindowsFormsApp1
             // pictureBox4
             // 
             this.pictureBox4.Image = global::WindowsFormsApp1.Properties.Resources._53;
-            this.pictureBox4.Location = new System.Drawing.Point(71, 299);
+            this.pictureBox4.Location = new System.Drawing.Point(95, 374);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(155, 204);
+            this.pictureBox4.Size = new System.Drawing.Size(207, 255);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 4;
             this.pictureBox4.TabStop = false;
@@ -122,9 +130,10 @@ namespace WindowsFormsApp1
             // pictureBox2
             // 
             this.pictureBox2.Image = global::WindowsFormsApp1.Properties.Resources._53;
-            this.pictureBox2.Location = new System.Drawing.Point(232, 56);
+            this.pictureBox2.Location = new System.Drawing.Point(309, 70);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(156, 204);
+            this.pictureBox2.Size = new System.Drawing.Size(208, 255);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
@@ -132,18 +141,31 @@ namespace WindowsFormsApp1
             // pictureBox1
             // 
             this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources._53;
-            this.pictureBox1.Location = new System.Drawing.Point(71, 56);
+            this.pictureBox1.Location = new System.Drawing.Point(95, 70);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(155, 204);
+            this.pictureBox1.Size = new System.Drawing.Size(207, 255);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("新細明體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.button5.Location = new System.Drawing.Point(740, 245);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(228, 94);
+            this.button5.TabIndex = 9;
+            this.button5.Text = "十點半比大小";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1011, 579);
+            this.ClientSize = new System.Drawing.Size(1348, 724);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -153,6 +175,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.bnt0);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -175,6 +198,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
     }
 }
 
